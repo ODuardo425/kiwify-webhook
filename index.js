@@ -51,3 +51,5 @@ app.post('/webhook/kiwify', async (req, res) => {
 // Porta
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`🚀 Webhook rodando na porta ${port}`));
+console.log("-> Carregando versão nova do arquivo index.js");
+
